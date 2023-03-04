@@ -44,7 +44,7 @@ localStorage.setItem("theme", isDark() ? "dark" : "dark");
   return await JSON.parse(txt);
 }
 
-const configJson = "https://raw.githubusercontent.com/patrykpalej/python-szkolenia/master/config.json";
+const configJson = "https://raw.githubusercontent.com/patrykpalej/python-zadania/master/config.json";
 const config = await get_config(configJson);
 const trainings = Object.keys(config).sort()
 
